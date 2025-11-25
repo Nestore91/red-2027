@@ -1,0 +1,1 @@
+// seccionales/page.tsx  placeholder

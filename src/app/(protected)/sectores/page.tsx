@@ -1,0 +1,1 @@
+// sectores/page.tsx  placeholder
