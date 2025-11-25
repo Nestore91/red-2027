@@ -1,10 +1,8 @@
-export default function CasillasPage() {
+export default function Page() {
   return (
     <main className="p-6">
-      <h1 className="text-2xl font-bold">Casillas</h1>
-      <p className="text-gray-600">
-        Vista general de casillas. (Construcción pendiente)
-      </p>
+      <h1 className="text-xl font-bold">Casillas</h1>
+      <p className="text-gray-600">Módulo en construcción…</p>
     </main>
   );
 }
