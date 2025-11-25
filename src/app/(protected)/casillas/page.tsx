@@ -1,5 +1,10 @@
-import PlaceholderPage from '@/components/Placeholder';
-
-export default function Page() {
-  return <PlaceholderPage title="Casillas" description="Vista temporal mientras construimos la página." />;
+export default function CasillasPage() {
+  return (
+    <main className="p-6">
+      <h1 className="text-2xl font-bold">Casillas</h1>
+      <p className="text-gray-600">
+        Vista general de casillas. (Construcción pendiente)
+      </p>
+    </main>
+  );
 }
