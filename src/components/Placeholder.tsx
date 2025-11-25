@@ -1,10 +1,8 @@
-export default function PlaceholderPage() {
+export default function PlaceholderPage({ title = "En construcción", description = "" }) {
   return (
-    <main className="flex items-center justify-center min-h-screen bg-gray-100 text-gray-600">
-      <div className="text-center p-6">
-        <h1 className="text-xl font-bold mb-2">Página en construcción</h1>
-        <p>Este módulo estará disponible próximamente.</p>
-      </div>
+    <main className="min-h-screen flex flex-col items-center justify-center p-6">
+      <h1 className="text-2xl font-bold mb-2">{title}</h1>
+      <p className="text-gray-600 text-center">{description}</p>
     </main>
   );
 }
